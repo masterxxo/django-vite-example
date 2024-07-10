@@ -1,4 +1,4 @@
-# django-vite examples
+# Django-vite use example
 Example Django app showcasing how to use django-vite. Original examples you can find [here](https://github.com/Niicck/django-vite-examples)
 
 ## Install
