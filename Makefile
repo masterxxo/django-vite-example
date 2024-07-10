@@ -8,14 +8,14 @@ EXAMPLES = legacy-settings multi-app zero-config fully-loaded
 		$(call build_file_from_sample, $$dir/.env); \
 	done
 
-# Build django and vite docker containers.
+# Build django and vite docker container.
 .PHONY: build
 build:
 	sh scripts/build.sh
 
-# Run new-settings demo
+# Run app
 .PHONY: legacy-settings-demo
-new-settings-demo: .env
+start-app: .env
 	sh project/new_settings/start.sh
 
 down:
